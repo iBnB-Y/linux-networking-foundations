@@ -1,0 +1,16 @@
+
+# Nmap Port Scanning
+
+Nmap is a network scanning tool used to discover
+open ports and services on a host.
+
+## Why Port Scanning Matters
+- Identify running services
+- Detect attack surface
+- Verify firewall rules
+
+## Common Scan Types
+
+### TCP SYN Scan
+```bash
+sudo nmap -sS target
